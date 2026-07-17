@@ -6,3 +6,10 @@ JOIN worker w
 ON
 t.worker_red_id = w.worker_id
 WHERE w.salary = (SELECT MAX(salary) FROM worker)
+
+--  Find Second Highest Salary in a Table
+SELECT name, salary
+FROM employee
+WHERE salary  = (SELECT MAX(salary)
+                FROM employee
+                WHERE salary < (SELECT MAX(salary) FROM employee))
