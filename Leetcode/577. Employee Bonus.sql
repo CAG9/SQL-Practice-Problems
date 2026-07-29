@@ -7,3 +7,4 @@ ON e.empId = b.empid)
 SELECT name, bonus
 FROM complete
 WHERE bonus < 1000 OR bonus IS NULL
+
