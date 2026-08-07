@@ -8,7 +8,7 @@ The technique: Instead of directly looking for those who do not meet the conditi
 # 2. The Post-Aggregation Filter Pattern (GROUP BY + HAVING)
 When to use it: When you need to apply a logical condition over a mathematical calculation or a general count, rather than a single transaction.
 
-How to identify it in the text: Phrases like "more than N times", "total sales greater than", or "only those who bought all products","find duplicate emails"..
+How to identify it in the text: Phrases like "more than N times", "total sales greater than", or "only those who bought all products", "find duplicate emails".
 
 The technique: Group by the main entity (GROUP BY id), perform the aggregation function (e.g., COUNT() or SUM()), and use the HAVING clause to filter the final result.
 
@@ -22,7 +22,7 @@ The technique: Use window functions (ROW_NUMBER(), RANK(), LEAD(), LAG()) combin
 # 4. The Self-Reference Pattern (Self-Join)
 When to use it: When the solution requires comparing different records that live in the exact same table.
 
-How to identify it in the text: Scenarios like "Employees who earn more than their managers".
+How to identify it in the text: Scenarios like "Employees who earn more than their managers", "Delete Duplicate Emails".
 
 The technique: Perform a JOIN of the table with itself (FROM table t1 JOIN table t2), usually implementing inequality conditions (t1.salary > t2.salary) or linking internal foreign keys (t1.manager_id = t2.id).
 # 5. Bonus
