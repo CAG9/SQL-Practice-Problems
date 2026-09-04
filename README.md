@@ -1,7 +1,7 @@
 # SQL Practice Problems
 
 ## Author
-- Cesar Arcos-Gonzalez: cesar99ag@gmail.com
+- Cesar Arcos Gonzalez: cesar99ag@gmail.com
 ## About
 A repository to store my sql problem solutions.
 ## Resources
