@@ -45,7 +45,7 @@ ORDER BY
 
 
 
--- Improved
+-- Dim query
 SELECT 
     f.facility_code,
     a.ctas_score,
