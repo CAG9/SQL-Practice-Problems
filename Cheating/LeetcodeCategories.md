@@ -12,9 +12,9 @@ Below is a table .....
 | :--- | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
 | :--- | :--- | :--- | :--- | 595. Big Countries (WHERE OR) |
 | :--- | :--- | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
-| :--- | :--- | :--- | :--- | :--- |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
+| :--- | :--- | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 ---
-Next:  620
+Next:  1050
