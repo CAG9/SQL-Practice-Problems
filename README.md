@@ -3,7 +3,10 @@
 ## Author
 - Cesar Arcos Gonzalez: cesar99ag@gmail.com
 ## About
-A repository to store my sql problem solutions.
+A collection of my solutions to SQL problems and challenges.
+* SQL queries and problem solutions
+* Practice problems covering different SQL concepts
+* Examples for improving query writing and problem-solving skills
 ## Resources
 - LeetCode
 - Hackerrank
