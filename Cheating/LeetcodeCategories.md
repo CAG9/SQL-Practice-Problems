@@ -11,10 +11,15 @@ Below is a table .....
 | 619. Biggest Single Number MAX(FROM inner query) | 586. Customer Placing the Largest Number of Orders (GROUP BY, ORDER LIMIT) | :--- | :--- | 577. Employee Bonus (Left join OR WHERE)|
 | :--- | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
 | :--- | 1068. Product Sales Analysis I( HAVING)| :--- | :--- | 595. Big Countries (WHERE OR) |
-| :--- | :--- | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
+| :--- | 1084. Sales Analysis III HAVING(MIN(date)>=,MAX(date)<= | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
 | :--- | :--- | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
 | :--- | :--- | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
 | :--- | :--- | :--- | :--- | 1075. Project Employees I(Join and ROUND(AVG()) |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | 1141. User Activity for the Past 30 Days I(COUNT(distinctid) WHERE date , GROUPBYdate|
+| :--- | :--- | :--- | :--- | 1148. Article Views I (WHEre author =viewer)|
+| :--- | :--- | :--- | :--- | 1179. Reformat Department Table(SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) As Jan_Revenue),Groupby|
+| :--- | :--- | :--- | :--- | 1211. Queries Quality and Percentage(AVG(rat/pos| SUM(CASE)/COUNT(*)x100|
+| :--- | :--- | :--- | :--- | 1251. Average Selling Price(JOIN id and dates, IFNULL(ROUND(SUM(price*units)/SUM(u.units),2),0) |
+
 ---
-Next:  1084. Sales Analysis III
+Next:  1251
