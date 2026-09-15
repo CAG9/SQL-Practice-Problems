@@ -14,7 +14,7 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
 | :--- | :--- | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
 | :--- | :--- | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | 1075. Project Employees I(Join and ROUND(AVG()) |
 | :--- | :--- | :--- | :--- | :--- |
 ---
-Next:  1050
+Next:  1084. Sales Analysis III
