@@ -10,7 +10,7 @@ Below is a table .....
 | 607. Sales Person |511. Game Play Analysis I | :--- | 196. Delete Duplicate Emails  | 197. Rising Temperature (Join on Diff(dates))|
 | 619. Biggest Single Number MAX(FROM inner query) | 586. Customer Placing the Largest Number of Orders (GROUP BY, ORDER LIMIT) | :--- | :--- | 577. Employee Bonus (Left join OR WHERE)|
 | :--- | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
-| :--- | :--- | :--- | :--- | 595. Big Countries (WHERE OR) |
+| :--- | 1068. Product Sales Analysis I( HAVING)| :--- | :--- | 595. Big Countries (WHERE OR) |
 | :--- | :--- | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
 | :--- | :--- | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
 | :--- | :--- | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
