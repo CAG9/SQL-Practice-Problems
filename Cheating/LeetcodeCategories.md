@@ -12,7 +12,7 @@ Below is a table .....
 | :--- | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
 | :--- | 1068. Product Sales Analysis I( HAVING)| :--- | :--- | 595. Big Countries (WHERE OR) |
 | :--- | 1084. Sales Analysis III HAVING(MIN(date)>=,MAX(date)<= | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
-| :--- | :--- | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
+| :--- | 1327. List the Products Ordered in a Period(JOIN id and dates HAVING >100) | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
 | :--- | :--- | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
 | :--- | :--- | :--- | :--- | 1075. Project Employees I(Join and ROUND(AVG()) |
 | :--- | :--- | :--- | :--- | 1141. User Activity for the Past 30 Days I(COUNT(distinctid) WHERE date , GROUPBYdate|
@@ -20,6 +20,18 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | 1179. Reformat Department Table(SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) As Jan_Revenue),Groupby|
 | :--- | :--- | :--- | :--- | 1211. Queries Quality and Percentage(AVG(rat/pos| SUM(CASE)/COUNT(*)x100|
 | :--- | :--- | :--- | :--- | 1251. Average Selling Price(JOIN id and dates, IFNULL(ROUND(SUM(price*units)/SUM(u.units),2),0) |
+| :--- | :--- | :--- | :--- | 1280. Students and Examinations(CROSS JOIN LEFT JOIN, COUNT(examinationsubjects)GROUPBY idnamesub |
+| :--- | :--- | :--- | :--- | 1378. Replace Employee ID With The Unique Identifier (LeftJOin)|
+| :--- | :--- | :--- | :--- | 1407. Top Travellers(IFNULL(SUM)), LEFT JOIN groupby id|
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
 
 ---
 Next:  1251
