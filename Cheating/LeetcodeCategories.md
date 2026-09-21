@@ -9,12 +9,12 @@ Below is a table .....
 | 183. Customers Who Never Order | 182. Duplicate Emails | 1484. Group Sold Products By The Date (COUNT, GROUP_CONCATdistinct )| 181. Employees Earning More Than Their Managers | 175. Combine Two Tables (Join) |
 | 607. Sales Person |511. Game Play Analysis I | :--- | 196. Delete Duplicate Emails  | 197. Rising Temperature (Join on Diff(dates))|
 | 619. Biggest Single Number MAX(FROM inner query) | 586. Customer Placing the Largest Number of Orders (GROUP BY, ORDER LIMIT) | :--- | :--- | 577. Employee Bonus (Left join OR WHERE)|
-| :--- | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
-| :--- | 1068. Product Sales Analysis I( HAVING)| :--- | :--- | 595. Big Countries (WHERE OR) |
+| 1581. Customer Who Visited but Did Not Make Any Transactions (WHERE NOT IN visitid from transactions) | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
+| 1633. Percentage of Users Attended a Contest(COUNT()/(SELECT COUNT()) | 1068. Product Sales Analysis I( HAVING)| :--- | :--- | 595. Big Countries (WHERE OR) |
 | :--- | 1084. Sales Analysis III HAVING(MIN(date)>=,MAX(date)<= | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
 | :--- | 1327. List the Products Ordered in a Period(JOIN id and dates HAVING >100) | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
-| :--- | :--- | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
-| :--- | :--- | :--- | :--- | 1075. Project Employees I(Join and ROUND(AVG()) |
+| :--- | 1587. Bank Account Summary II (SUM(amount) group by name,account | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
+| :--- | :--- | :--- | 1661. Average Time of Process per Machine( self join on machineid,process, a1activity start , a2.activity start ) then just avg a2-a1) | 1075. Project Employees I(Join and ROUND(AVG()) |
 | :--- | :--- | :--- | :--- | 1141. User Activity for the Past 30 Days I(COUNT(distinctid) WHERE date , GROUPBYdate|
 | :--- | :--- | :--- | :--- | 1148. Article Views I (WHEre author =viewer)|
 | :--- | :--- | :--- | :--- | 1179. Reformat Department Table(SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) As Jan_Revenue),Groupby|
@@ -34,4 +34,4 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | :--- |
 
 ---
-Next:  1581
+Next:  1667
