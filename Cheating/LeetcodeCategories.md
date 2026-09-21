@@ -25,8 +25,8 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | 1407. Top Travellers(IFNULL(SUM)), LEFT JOIN groupby id|
 | :--- | :--- | :--- | :--- | 1517. Find Users With Valid E-Mails REGEXP'^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode\\.com$' AND LIKE BINARY '%@leetcode.com' |
 | :--- | :--- | :--- | :--- | 1527. Patients With a Condition REGEXP '(^| )DIAB1' |
-| :--- | :--- | :--- | :--- | :--- |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | 1667. Fix Names in a Table(CONCAT(LEFT(UPPER)),LOWER(SUBSTRING2)|
+| :--- | :--- | :--- | :--- | 1683. Invalid Tweets WHERE LENGTH()>15|
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
@@ -34,4 +34,4 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | :--- |
 
 ---
-Next:  1667
+Next:  1693
