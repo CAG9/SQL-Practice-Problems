@@ -14,10 +14,10 @@ Below is a table .....
 | :--- | 1084. Sales Analysis III HAVING(MIN(date)>=,MAX(date)<= | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
 | :--- | 1327. List the Products Ordered in a Period(JOIN id and dates HAVING >100) | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
 | :--- | 1587. Bank Account Summary II (SUM(amount) group by name,account | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
-| :--- | :--- | :--- | 1661. Average Time of Process per Machine( self join on machineid,process, a1activity start , a2.activity start ) then just avg a2-a1) | 1075. Project Employees I(Join and ROUND(AVG()) |
-| :--- | :--- | :--- | :--- | 1141. User Activity for the Past 30 Days I(COUNT(distinctid) WHERE date , GROUPBYdate|
-| :--- | :--- | :--- | :--- | 1148. Article Views I (WHEre author =viewer)|
-| :--- | :--- | :--- | :--- | 1179. Reformat Department Table(SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) As Jan_Revenue),Groupby|
+| :--- | 1693. Daily Leads and Partners GROUPBY date_id,make_name, COUNT(distict) | :--- | 1661. Average Time of Process per Machine( self join on machineid,process, a1activity start , a2.activity start ) then just avg a2-a1) | 1075. Project Employees I(Join and ROUND(AVG()) |
+| :--- | 1729. Find Followers Count GROUP BY user_id,COUNT(*) | :--- | :--- | 1141. User Activity for the Past 30 Days I(COUNT(distinctid) WHERE date , GROUPBYdate|
+| :--- | 1741. Find Total Time Spent by Each Employee (GROUPBY empid,day,sum(out-in) | :--- | 1731. The Number of Employees Which Report to Each Employee(JOIN on emplo=reports, Groupby emplo,name ,COUNT,round e2) | 1148. Article Views I (WHEre author =viewer)|
+| :--- | 1789. Primary Department for Each Employee (GROUPBY empid,having count(empid) UNION WHERE Y) | :--- | :--- | 1179. Reformat Department Table(SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) As Jan_Revenue),Groupby|
 | :--- | :--- | :--- | :--- | 1211. Queries Quality and Percentage(AVG(rat/pos| SUM(CASE)/COUNT(*)x100|
 | :--- | :--- | :--- | :--- | 1251. Average Selling Price(JOIN id and dates, IFNULL(ROUND(SUM(price*units)/SUM(u.units),2),0) |
 | :--- | :--- | :--- | :--- | 1280. Students and Examinations(CROSS JOIN LEFT JOIN, COUNT(examinationsubjects)GROUPBY idnamesub |
@@ -27,7 +27,7 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | 1527. Patients With a Condition REGEXP '(^| )DIAB1' |
 | :--- | :--- | :--- | :--- | 1667. Fix Names in a Table(CONCAT(LEFT(UPPER)),LOWER(SUBSTRING2)|
 | :--- | :--- | :--- | :--- | 1683. Invalid Tweets WHERE LENGTH()>15|
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | 1757. Recyclable and Low Fat Products WHERE|
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
