@@ -18,7 +18,7 @@ Below is a table .....
 | :--- | 1729. Find Followers Count GROUP BY user_id,COUNT(*) | :--- | :--- | 1141. User Activity for the Past 30 Days I(COUNT(distinctid) WHERE date , GROUPBYdate|
 | :--- | 1741. Find Total Time Spent by Each Employee (GROUPBY empid,day,sum(out-in) | :--- | 1731. The Number of Employees Which Report to Each Employee(JOIN on emplo=reports, Groupby emplo,name ,COUNT,round e2) | 1148. Article Views I (WHEre author =viewer)|
 | :--- | 1789. Primary Department for Each Employee (GROUPBY empid,having count(empid) UNION WHERE Y) | :--- | :--- | 1179. Reformat Department Table(SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) As Jan_Revenue),Groupby|
-| :--- | :--- | :--- | :--- | 1211. Queries Quality and Percentage(AVG(rat/pos| SUM(CASE)/COUNT(*)x100|
+| :--- | 1890. The Latest Login in 2020(GROUP BY user_id, MAX(time))| :--- | :--- | 1211. Queries Quality and Percentage(AVG(rat/pos| SUM(CASE)/COUNT(*)x100|
 | :--- | :--- | :--- | :--- | 1251. Average Selling Price(JOIN id and dates, IFNULL(ROUND(SUM(price*units)/SUM(u.units),2),0) |
 | :--- | :--- | :--- | :--- | 1280. Students and Examinations(CROSS JOIN LEFT JOIN, COUNT(examinationsubjects)GROUPBY idnamesub |
 | :--- | :--- | :--- | :--- | 1378. Replace Employee ID With The Unique Identifier (LeftJOin)|
@@ -28,10 +28,10 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | 1667. Fix Names in a Table(CONCAT(LEFT(UPPER)),LOWER(SUBSTRING2)|
 | :--- | :--- | :--- | :--- | 1683. Invalid Tweets WHERE LENGTH()>15|
 | :--- | :--- | :--- | :--- | 1757. Recyclable and Low Fat Products WHERE|
-| :--- | :--- | :--- | :--- | :--- |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | 1795. Rearrange Products Table(SELECT id,'store1'',where st1 is not null, UNION  |
+| :--- | :--- | :--- | :--- | 1873. Calculate Special Bonus CASE WHEN id%2=1 And  NOT LIKE 'M%'|
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 
 ---
-Next:  1693
+Next:  1965
