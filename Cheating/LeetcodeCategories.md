@@ -11,16 +11,16 @@ Below is a table .....
 | 619. Biggest Single Number MAX(FROM inner query) | 586. Customer Placing the Largest Number of Orders (GROUP BY, ORDER LIMIT) | :--- | :--- | 577. Employee Bonus (Left join OR WHERE)|
 | 1581. Customer Who Visited but Did Not Make Any Transactions (WHERE NOT IN visitid from transactions) | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
 | 1633. Percentage of Users Attended a Contest(COUNT()/(SELECT COUNT()) | 1068. Product Sales Analysis I( HAVING)| :--- | :--- | 595. Big Countries (WHERE OR) |
-| :--- | 1084. Sales Analysis III HAVING(MIN(date)>=,MAX(date)<= | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
-| :--- | 1327. List the Products Ordered in a Period(JOIN id and dates HAVING >100) | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
+| 1965. Employees With Missing Information (WHERE NIT IN id table2) UNION WHERE id NOT IN table 2| 1084. Sales Analysis III HAVING(MIN(date)>=,MAX(date)<= | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
+| 1978. Employees Whose Manager Left the Company(WHERE managerid NOT IN empid) | 1327. List the Products Ordered in a Period(JOIN id and dates HAVING >100) | :--- | :--- | 620. Not Boring Movies (WHERE id%2=1 and !+) |
 | :--- | 1587. Bank Account Summary II (SUM(amount) group by name,account | :--- | :--- |627. Swap Sex of Employees (Update tbl set sex = (Case) |
 | :--- | 1693. Daily Leads and Partners GROUPBY date_id,make_name, COUNT(distict) | :--- | 1661. Average Time of Process per Machine( self join on machineid,process, a1activity start , a2.activity start ) then just avg a2-a1) | 1075. Project Employees I(Join and ROUND(AVG()) |
 | :--- | 1729. Find Followers Count GROUP BY user_id,COUNT(*) | :--- | :--- | 1141. User Activity for the Past 30 Days I(COUNT(distinctid) WHERE date , GROUPBYdate|
 | :--- | 1741. Find Total Time Spent by Each Employee (GROUPBY empid,day,sum(out-in) | :--- | 1731. The Number of Employees Which Report to Each Employee(JOIN on emplo=reports, Groupby emplo,name ,COUNT,round e2) | 1148. Article Views I (WHEre author =viewer)|
 | :--- | 1789. Primary Department for Each Employee (GROUPBY empid,having count(empid) UNION WHERE Y) | :--- | :--- | 1179. Reformat Department Table(SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) As Jan_Revenue),Groupby|
 | :--- | 1890. The Latest Login in 2020(GROUP BY user_id, MAX(time))| :--- | :--- | 1211. Queries Quality and Percentage(AVG(rat/pos| SUM(CASE)/COUNT(*)x100|
-| :--- | :--- | :--- | :--- | 1251. Average Selling Price(JOIN id and dates, IFNULL(ROUND(SUM(price*units)/SUM(u.units),2),0) |
-| :--- | :--- | :--- | :--- | 1280. Students and Examinations(CROSS JOIN LEFT JOIN, COUNT(examinationsubjects)GROUPBY idnamesub |
+| :--- | 2356. Number of Unique Subjects Taught by Each Teacher(COUNT(distinct) subid  | :--- | :--- | 1251. Average Selling Price(JOIN id and dates, IFNULL(ROUND(SUM(price*units)/SUM(u.units),2),0) |
+| :--- | 3793. Find Users with High Token Usage(HAVING COUNT(prmt)) >=3 AND MAX(tokens) | :--- | :--- | 1280. Students and Examinations(CROSS JOIN LEFT JOIN, COUNT(examinationsubjects)GROUPBY idnamesub |
 | :--- | :--- | :--- | :--- | 1378. Replace Employee ID With The Unique Identifier (LeftJOin)|
 | :--- | :--- | :--- | :--- | 1407. Top Travellers(IFNULL(SUM)), LEFT JOIN groupby id|
 | :--- | :--- | :--- | :--- | 1517. Find Users With Valid E-Mails REGEXP'^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode\\.com$' AND LIKE BINARY '%@leetcode.com' |
@@ -30,8 +30,20 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | 1757. Recyclable and Low Fat Products WHERE|
 | :--- | :--- | :--- | :--- | 1795. Rearrange Products Table(SELECT id,'store1'',where st1 is not null, UNION  |
 | :--- | :--- | :--- | :--- | 1873. Calculate Special Bonus CASE WHEN id%2=1 And  NOT LIKE 'M%'|
-| :--- | :--- | :--- | :--- | :--- |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | 3436. Find Valid Emails(REGEXP '^[A-Za-z0-9_]+@[A-Za-z]+[.]com$')  |
+| :--- | :--- | :--- | :--- | 3465. Find Products with Valid Serial Numbers(REGEXP_LIKE(description, '\\bSN[0-9]{4}-[0-9]{4}\\b', 'c'))|
+| :--- | :--- | :--- | :--- |3570. Find Books with No Available Copies(WITH CTTE GROUP BY BOOK ID ,and count _ then JOIN  |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |:--- |
+
+
 
 ---
-Next:  1965
+Next:  176
