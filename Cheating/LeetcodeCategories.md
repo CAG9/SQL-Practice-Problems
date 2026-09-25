@@ -7,8 +7,8 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | :--- |
 | Anti-Join | GROUP BY +/or HAVING | Window Functions| Self-Join | Other |
 | 183. Customers Who Never Order | 182. Duplicate Emails | 1484. Group Sold Products By The Date (COUNT, GROUP_CONCATdistinct )| 181. Employees Earning More Than Their Managers | 175. Combine Two Tables (Join) |
-| 607. Sales Person |511. Game Play Analysis I | :--- | 196. Delete Duplicate Emails  | 197. Rising Temperature (Join on Diff(dates))|
-| 619. Biggest Single Number MAX(FROM inner query) | 586. Customer Placing the Largest Number of Orders (GROUP BY, ORDER LIMIT) | :--- | :--- | 577. Employee Bonus (Left join OR WHERE)|
+| 607. Sales Person |511. Game Play Analysis I | 178. Rank Scores(DENSERANK OVER(ORDERBY score DESC| 196. Delete Duplicate Emails  | 197. Rising Temperature (Join on Diff(dates))|
+| 619. Biggest Single Number MAX(FROM inner query) | 586. Customer Placing the Largest Number of Orders (GROUP BY, ORDER LIMIT) | 180. Consecutive Numbers(WITH CTE CASE num=LAG/LEAD ) SELECT DISTINCT WHERE IS NOT NULL) | :--- | 577. Employee Bonus (Left join OR WHERE)|
 | 1581. Customer Who Visited but Did Not Make Any Transactions (WHERE NOT IN visitid from transactions) | 596. Classes With at Least 5 Students | :--- | :--- | 584. Find Customer Referee (WHERE != 2 OR IS NULL) |
 | 1633. Percentage of Users Attended a Contest(COUNT()/(SELECT COUNT()) | 1068. Product Sales Analysis I( HAVING)| :--- | :--- | 595. Big Countries (WHERE OR) |
 | 1965. Employees With Missing Information (WHERE NIT IN id table2) UNION WHERE id NOT IN table 2| 1084. Sales Analysis III HAVING(MIN(date)>=,MAX(date)<= | :--- | :--- | 610. Triangle Judgement (Case x+y>z...) |
@@ -21,7 +21,7 @@ Below is a table .....
 | :--- | 1890. The Latest Login in 2020(GROUP BY user_id, MAX(time))| :--- | :--- | 1211. Queries Quality and Percentage(AVG(rat/pos| SUM(CASE)/COUNT(*)x100|
 | :--- | 2356. Number of Unique Subjects Taught by Each Teacher(COUNT(distinct) subid  | :--- | :--- | 1251. Average Selling Price(JOIN id and dates, IFNULL(ROUND(SUM(price*units)/SUM(u.units),2),0) |
 | :--- | 3793. Find Users with High Token Usage(HAVING COUNT(prmt)) >=3 AND MAX(tokens) | :--- | :--- | 1280. Students and Examinations(CROSS JOIN LEFT JOIN, COUNT(examinationsubjects)GROUPBY idnamesub |
-| :--- | :--- | :--- | :--- | 1378. Replace Employee ID With The Unique Identifier (LeftJOin)|
+| :--- | 176. Second Highest Salary(MAX(salary) WHERE < select max(query) | :--- | :--- | 1378. Replace Employee ID With The Unique Identifier (LeftJOin)|
 | :--- | :--- | :--- | :--- | 1407. Top Travellers(IFNULL(SUM)), LEFT JOIN groupby id|
 | :--- | :--- | :--- | :--- | 1517. Find Users With Valid E-Mails REGEXP'^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode\\.com$' AND LIKE BINARY '%@leetcode.com' |
 | :--- | :--- | :--- | :--- | 1527. Patients With a Condition REGEXP '(^| )DIAB1' |
@@ -33,7 +33,7 @@ Below is a table .....
 | :--- | :--- | :--- | :--- | 3436. Find Valid Emails(REGEXP '^[A-Za-z0-9_]+@[A-Za-z]+[.]com$')  |
 | :--- | :--- | :--- | :--- | 3465. Find Products with Valid Serial Numbers(REGEXP_LIKE(description, '\\bSN[0-9]{4}-[0-9]{4}\\b', 'c'))|
 | :--- | :--- | :--- | :--- |3570. Find Books with No Available Copies(WITH CTTE GROUP BY BOOK ID ,and count _ then JOIN  |
-| :--- | :--- | :--- | :--- |:--- |
+| :--- | :--- | :--- | :--- |177. Nth Highest Salary (SET N-N1. select distinct limit 1 offset N |
 | :--- | :--- | :--- | :--- |:--- |
 | :--- | :--- | :--- | :--- |:--- |
 | :--- | :--- | :--- | :--- |:--- |
@@ -46,4 +46,4 @@ Below is a table .....
 
 
 ---
-Next:  176
+Next:  184
